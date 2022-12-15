@@ -1,6 +1,6 @@
 [pkg.arrl160]
 tag = "ARRL 160m contest"
-msg = "ARRL‚Ì160mƒRƒ“ƒeƒXƒg‚Å‚·."
+msg = "ARRLã®160mã‚³ãƒ³ãƒ†ã‚¹ãƒˆã§ã™."
 web = "https://github.com/jr8ppg/zLog_cfgdat"
 doc = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/arrl160/README.md"
 use = ["dat.arrlsec", "cfg.arrl160dx"]
