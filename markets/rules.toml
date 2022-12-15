@@ -1,0 +1,14 @@
+[pkg.arrl160]
+tag = "ARRL 160m contest"
+msg = "ARRLの160mコンテストです."
+web = "https://github.com/jr8ppg/zLog_cfgdat"
+doc = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/arrl160/README.md"
+use = ["dat.arrlsec", "cfg.arrl160dx"]
+exp = "stable"
+
+[cfg.arrl160dx]
+url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/arrl160/arrl160dx.cfg"
+
+[dat.arrlsec]
+url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/arrl160/arrlsec.dat"
+
