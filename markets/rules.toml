@@ -12,3 +12,17 @@ url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/a
 [dat.arrlsec]
 url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/arrl160/arrlsec.dat"
 
+[pkg.ja8_50th]
+tag = "ALL JA8 contest(50th anniversary)"
+msg = "ALL JA8コンテスト2023(50周年)です。"
+web = "https://github.com/jr8ppg/zLog_cfgdat"
+doc = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/ja8_50th/README.md"
+use = ["dat.ja8_50th", "cfg.ja8_50th"]
+exp = "stable"
+
+[cfg.ja8_50th]
+url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/ja8_50th/ja8_50th.cfg"
+
+[dat.ja8_50th]
+url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/ja8_50th/ja8_50th.dat"
+
