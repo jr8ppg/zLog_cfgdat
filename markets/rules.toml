@@ -21,8 +21,8 @@ use = ["dat.ja8_50th", "cfg.ja8_50th"]
 exp = "stable"
 
 [cfg.ja8_50th]
-url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/ja8_50th/ja8_50th.cfg"
+url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/ja8_50th/JA8_50th.CFG"
 
 [dat.ja8_50th]
-url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/ja8_50th/ja8_50th.dat"
+url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/ja8_50th/JA8_50th.DAT"
 
