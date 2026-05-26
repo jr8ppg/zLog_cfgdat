@@ -26,3 +26,17 @@ url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/j
 [dat.ja8_50th]
 url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/ja8_50th/JA8_50th.DAT"
 
+[pkg.KSContest]
+tag = "上川宗谷支部コンテスト"
+msg = "上川宗谷支部コンテストです。"
+web = "https://github.com/jr8ppg/zLog_cfgdat"
+doc = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/KSContest/README.md"
+use = ["dat.KSContest", "cfg.KSContest"]
+exp = "stable"
+
+[cfg.KSContest]
+url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/KSContest/KSContest.CFG"
+
+[dat.KSContest]
+url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/KSContest/KSContest.DAT"
+
