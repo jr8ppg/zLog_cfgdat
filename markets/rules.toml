@@ -40,3 +40,20 @@ url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/K
 [dat.KSContest]
 url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/KSContest/KSContest.dat"
 
+[pkg.ISB]
+tag = "石狩後志支部コンテスト"
+msg = "石狩後志支部コンテスト（管内用／管外用）です。"
+web = "https://github.com/jr8ppg/zLog_cfgdat"
+doc = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/ISB/README.md"
+use = ["dat.ISBnew", "cfg.ISBnew_i", "cfg.ISBnew_o"]
+exp = "stable"
+
+[cfg.ISBnew_i]
+url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/ISB/ISBnew_i.cfg"
+
+[cfg.ISBnew_o]
+url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/ISB/ISBnew_o.cfg"
+
+[dat.ISBnew]
+url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/ISB/ISBnew.dat"
+
