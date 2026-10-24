@@ -57,3 +57,16 @@ url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/I
 [dat.ISBnew]
 url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/ISB/ISBnew.dat"
 
+[pkg.TKCW]
+tag = "東京ＣＷコンテスト"
+msg = "東京ＣＷコンテストです。"
+web = "https://github.com/jr8ppg/zLog_cfgdat"
+doc = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/TKCW/README.md"
+use = ["dat.tokyo", "cfg.tokyocw"]
+exp = "stable"
+
+[cfg.TKCW]
+url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/TKCW/tokyocw.cfg"
+
+[dat.TKCW]
+url = "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/TKCW/tokyo.dat"
